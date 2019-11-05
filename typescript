@@ -1,0 +1,9 @@
+Script started on Tue Nov  5 01:20:55 2019
+[?1034hbash-3.2$ node script.js 
+Hello, my name is (name)
+bash-3.2$ node script.js 
+Hello, my name is (name)
+bash-3.2$ clear
+[H[2Jbash-3.2$ node script.js 
+Hello, my name is (name)
+bash-3.2$ 
