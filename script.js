@@ -26,6 +26,14 @@ console.log (
     interestingFacts1 + interestingFacst2 + interstingFacts3 + interestingFacts4
 );
 
-
+//working on random number if else//
+const randomNumber = "";
+function greeting(a) {
+  if (city == "Detroit, Michigan") {
+    return "Hello, my name is " + name + " and I am a student at Grand Circus in Detroit, Michigan.";
+  } else {
+    return "Hello, my name is " + name + " and I am a student at Grand Circus in Grand Rapids, Michigan.";
+  }
+}
 console.log(
   Math.floor(Math.random() * 11))
