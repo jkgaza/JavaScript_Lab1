@@ -2,12 +2,18 @@ const name = "Jordan Gaza";
 const city = "Grand Rapids, Michigan";
 function greeting(a) {
   if (city == "Detroit, Michigan") {
-    return "Hello, my name is " + name + " and I am a student at Grand Circus in Detroit, Michigan";
+    return "Hello, my name is " + name + " and I am a student at Grand Circus in Detroit, Michigan.";
   } else {
-    return "Hello, my name is " + name + " and I am a student at Grand Circus in Grand Rapids, Michigan";
+    return "Hello, my name is " + name + " and I am a student at Grand Circus in Grand Rapids, Michigan.";
   }
 }
 console.log(greeting(city));
+
+const age = 26;
+const birthday = "December 2nd";
+console.log(
+  "I am" + " years old and my birthday is on" + birthday;
+);
 
 // const myName = "Jordan Gaza";
 // const age = 26;
