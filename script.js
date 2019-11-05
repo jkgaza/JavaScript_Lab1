@@ -9,11 +9,15 @@ function greeting(a) {
 }
 console.log(greeting(city));
 
+
+
 const age = 26;
 const birthday = "December 2nd";
 console.log(
-  "I am" + " years old and my birthday is on" + birthday;
+  "I am " + age + " years old and my birthday is on " + birthday
 );
+
+
 
 // const myName = "Jordan Gaza";
 // const age = 26;
