@@ -38,7 +38,7 @@ console.log(
 );
 
 //working on random number if else//
-const randomNumber = Math.floor(Math.random() * 11);
+const randomNumber = "";
 function random () {
   if (randomNumber == 5){
     return (
@@ -50,19 +50,30 @@ function random () {
     );
   }
 }
-console.log(random());
-console.log(Math.floor(Math.random() * 11));
 
 //For loop list//
 
-var text = "";
-var i;
-for (i = 0; i < 5; i++) {
-  text += "The number is " + i;
-}
-console.log;
+// var text = "";
+// var i = "";
+// for (i = 0; i < 5; i++) {
+//   text += "The number is " + i;
+// }
+// console.log(
+//   "The number is " + i
+// );
 
 
 //random number generator//
 
-console.log(Math.floor(Math.random() * 11));
+let counter = 0;
+while (true){
+  let randNumber = Math.floor(Math.random() * 11)
+  if (randNumber === 5){
+    console.log ("It took " + counter + " iterations to equal 5")
+    break;
+  }
+  else {
+    counter++
+    console.log (randNumber + "!==5");
+  }
+}
