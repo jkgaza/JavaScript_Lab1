@@ -29,8 +29,8 @@ const randomNumber = "";
 console.log(
   Math.floor(Math.random() * 11))
 
-  for (i = 0; i < 5; i++) {
-    text += "The number is " + i + "<br>";
+  for (i = 0; i < 5; i++){
+    console.log("The number is " + i) ;
   }
 
 console.log(
