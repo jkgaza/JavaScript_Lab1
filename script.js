@@ -25,6 +25,15 @@ function greeting() {
 }
 console.log(greeting());
 
+//trying part 2 again!!//
+function factsFunction() {
+  let facts = ["BMW", "Volvo", "Saab", "Ford"];
+  let text = "";
+  let i;
+  for (i = 0; i < facts.length; i++) 
+    text += facts[i];
+  }
+  console.log(factsFunction());
 ////
 
 const interestingFacts1 = "I was born in Big Rapids, Michigan. ";
@@ -36,21 +45,6 @@ const interestingFacts4 =
 console.log(
   interestingFacts1 + interestingFacst2 + interstingFacts3 + interestingFacts4
 );
-
-//working on random number if else//
-const randomNumber = "";
-function random () {
-  if (randomNumber == 5){
-    return (
-      randomNumber + "===5"
-    );
-  } else {
-    return (
-     randomNumber + "!==5"
-    );
-  }
-}
-console.log (randomNumber);
 
 //random number generator//
 
