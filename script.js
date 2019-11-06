@@ -1,21 +1,19 @@
+
+
 const name = "Jordan Gaza";
-const city = "Grand Rapids, Michigan";
-function greeting(a) {
-  if (city == "Detroit, Michigan") {
-    return "Hello, my name is " + name + " and I am a student at Grand Circus in Detroit, Michigan.";
-  } else {
-    return "Hello, my name is " + name + " and I am a student at Grand Circus in Grand Rapids, Michigan.";
-  }
-}
-console.log(greeting(city));
-
-
-
+const detroitGC = false;
 const age = 26;
 const birthday = "December 2nd";
-console.log(
-  "I am " + age + " years old and my birthday is on " + birthday
-);
+function greeting(){
+  if (detroitGC == true){
+    return "Hello, my name is " + name + " and I am a student at Grand Circus in Detroit, Michigan. I am " + age + " years old and my birthday is on " + birthday;
+  } else{
+    return "Hello, my name is " + name + " and I am a student at Grand Circus in Grand Rapids, Michigan. I am " + age + " years old and my birthday is on " + birthday;
+  }
+}
+console.log(greeting());
+
+
 
 
 const interestingFacts1 = "I was born in Big Rapids, Michigan. ";
@@ -28,12 +26,12 @@ console.log (
 
 //working on random number if else//
 const randomNumber = "";
-function greeting(a) {
-  if (city == "Detroit, Michigan") {
-    return "Hello, my name is " + name + " and I am a student at Grand Circus in Detroit, Michigan.";
-  } else {
-    return "Hello, my name is " + name + " and I am a student at Grand Circus in Grand Rapids, Michigan.";
+console.log(
+  Math.floor(Math.random() * 11))
+
+  for (i = 0; i < 5; i++) {
+    text += "The number is " + i + "<br>";
   }
-}
+
 console.log(
   Math.floor(Math.random() * 11))
