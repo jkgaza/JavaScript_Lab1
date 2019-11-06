@@ -27,24 +27,25 @@ console.log(greeting());
 
 //trying part 2 again!!//
 function factsFunction() {
-  let facts = ["BMW", "Volvo", "Saab", "Ford"];
+  let facts = ["I was born in Big Rapids, Michigan. ", "I graduated from Kendall College of Art and Design. ", "I can carry three full drinks in one hand. ", "I am not very comfortable with JavaScript at all, but I hope to improve in this afterhours bootcamp."];
   let text = "";
   let i;
-  for (i = 0; i < facts.length; i++) 
+  for (i = 0; i < facts.length; i++)
     text += facts[i];
+    return text;
   }
   console.log(factsFunction());
 ////
 
-const interestingFacts1 = "I was born in Big Rapids, Michigan. ";
-const interestingFacst2 =
-  "I graduated from Kendall College of Art and Design. ";
-const interstingFacts3 = "I can carry three full drinks in one hand. ";
-const interestingFacts4 =
-  "I am not very comfortable with JavaScript at all, but I hope to improve in this afterhours bootcamp.";
-console.log(
-  interestingFacts1 + interestingFacst2 + interstingFacts3 + interestingFacts4
-);
+// const interestingFacts1 = "I was born in Big Rapids, Michigan. ";
+// const interestingFacst2 =
+//   "I graduated from Kendall College of Art and Design. ";
+// const interstingFacts3 = "I can carry three full drinks in one hand. ";
+// const interestingFacts4 =
+//   "I am not very comfortable with JavaScript at all, but I hope to improve in this afterhours bootcamp.";
+// console.log(
+//   interestingFacts1 + interestingFacst2 + interstingFacts3 + interestingFacts4
+// );
 
 //random number generator//
 
