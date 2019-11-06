@@ -29,9 +29,26 @@ const randomNumber = "";
 console.log(
   Math.floor(Math.random() * 11))
 
+ //For loop list// 
+
   for (i = 0; i < 5; i++){
     console.log("The number is " + i) ;
   }
+
+ 
+//weird randomizing for loop?//
+
+//   var numbers = [
+//     console.log(
+//     Math.floor(Math.random() * 11))
+//   ];
+// var i = 5;
+// var text = "";
+
+// for (; i < len; i++) {
+//   text += numbers[i] + "<br>";
+
+//random number generator//  
 
 console.log(
   Math.floor(Math.random() * 11))
